@@ -1,11 +1,17 @@
-// custom.scss
+/*! Themestr.app `Fresca` Bootstrap 4.3.1 theme */
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,700);
+$headings-font-family:Muli;
 
-// All of your custom SCSS variables go first
-$primary:       #7D61C8 ;
-$secondary:     #ffffff ;
-$light:         #f1f1f1 ;
-$dark:          #000000 ;//then bootstrap & bootstrap-vue should be added after
-//so that they inherit the custom SCSS variables
+$enable-grid-classes:false;
+$primary:#07689F;
+$secondary:#C9D6DF;
+$success:#11D3BC;
+$danger:#F67280;
+$info:#A2D5F2;
+$warning:#FF7E67;
+$light:#FAFAFA;
+$dark:#4e4e4e;
+
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';
 

@@ -5,7 +5,7 @@
       <h2 class="subtitle"></h2>
       <b-row>
         <div>
-          <Chart></Chart>
+
         </div>
       </b-row>
       <b-row>
